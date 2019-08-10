@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    padding: 0;
+    background : linear-gradient(0deg, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url(img/main1.jpg);
+    background-size:cover;
+    background-position: center center;    
+    background-repeat: no-repeat;    
+    background-attachment: fixed;  
+
+    height: 100vh;
+    font-family: Comfortaa;
+}
+ 
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a{
+    margin:20px
+}
+.partner {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 12vh;
+    padding: 5px 
+
+}
+.part{
+    
+   width: 200px;
+}
+
+.divrega{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 190px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.headline{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.lag{
+    margin-top: 50px;
+    font-family:Comfortaa;
+    font-weight: 600; /*увеличивает толшину текста*/
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+    
+
+.position{
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 25px;
+    margin: auto;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(301.64deg, #EB1F4F 9.52%, #ED4A04 86.63%);
+    border-radius: 40px;
+}
+
+.position:hover { background: red; }
+
+
+
+.social_network{
+    text-align: center;
+    display:flex;
+    justify-content :center;
+
+    flex-wrap: wrap;
+    margin: 0;
+    cursor: pointer;
+}
+.social_network a{
+    display:flex;
+    justify-content :center;
+    margin: 0 10px;
+}
+
+
+}
+.fa{
+    margin: 20px;
+}
+
+
+.gradient-button {
+    margin: 10px;
+    font-family: "Arial Black";
+    font-size: 25px;
+    padding: 10px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 80px;
+}
+
+.gradient-button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+    color: #FFF;
+}
+.rega-button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+    color: #FFF;
+}
+.gradient-button-1 {background-image: linear-gradient(301.64deg, #EB1F4F 9.52%, #ED4A04 56.63%)}
+.gradient-button-1:hover { background-position: right center; }
+
+
+.logo{
+    width: 40%;
+    height: 25vh;
+    margin-left: 30%;
+    margin-top: 40px;
+}

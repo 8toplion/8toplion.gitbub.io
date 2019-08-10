@@ -1,0 +1,70 @@
+@media screen 
+and (max-device-width: 800px)
+{
+	body{
+    margin:0;
+    padding: 0;
+    background : linear-gradient(0deg, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url(img/main2.jpg);
+    background-size:cover;
+    background-position: center center;    
+    background-repeat: no-repeat;    
+    background-attachment: fixed;  
+
+    height: 100vh;
+    font-family: Comfortaa;
+}
+.gradient-button {
+    margin: 10px;
+    width: 35%;
+    margin-top: 20px;
+    font-family: "Arial Black";
+    font-size: 35px;
+   	padding: 10px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 80px;
+}
+
+
+.logo{
+	margin-top: 28vh;
+    width: 80%;
+    height: 15vh;
+    margin-left: 10%;
+}
+.contact{
+	font-size: 30px;
+    color: white;
+    font-family: Comfortaa;
+    text-align: center;
+    margin-top: -5px;}
+}
+
+
+.divrega{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 280px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.part{
+    width: 310px;
+    
+
+}
+.partner{
+    flex-wrap: wrap;
+    height: 8vh;
+    padding: 5px 13px;
+}
+
+}
+
