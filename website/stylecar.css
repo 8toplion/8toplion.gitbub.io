@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+.baner{
+	width: 100%;
+	height: 800px;
+	background: url(img/13-1.jpg);
+	background-size: 100% 800px;
+}
+.header{
+	width: 100%;
+	height: 100px;
+}	
+.logo{
+	margin-left: 97px;
+	margin-top: 35px;
+}
+.menu-main {
+	float: right;
+	margin-top: 43px;
+	margin-right: 156px;
+}
+.menu-main li {display: inline-block;}
+.menu-main a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 14px;
+  font-family: Helvetica;
+  margin: 30px;
+ 
+}
+.clearfix {
+	clear: both;
+}
+.header_text{
+	width: 458px;
+	float: right;
+	margin-right: 110px;
+	margin-top: 200px;
+}
+#header_button{
+	text-transform: uppercase;
+	padding: 25px 47px;
+	font-size: 12px;
+	background-color: #10c9c3;
+	margin-top: 38px;
+}
+.about_us{
+	width: 100%;
+	height: 417px;
+	background-color: #ffffff;
+	display: flex;
+
+}
+.about_ustext{
+	width: 591px;
+	text-align: center;
+	margin: auto;
+	margin-top: 85px;
+}
+.skills{
+	height: 575px;
+	width: 100%;
+	display: flex;
+}
+#left_skills{
+	height: 575px;
+	width: 50%;
+	background-color: #f8f9f9;
+}
+#deogrm{
+	width: 100%;
+	height: 267px;
+	background: url(img/15.jpg);
+	background-size: 90% 267px;
+}
+#right_skills{
+	height: 575px;
+	width: 50%;
+	background: url(img/14.jpg);
+	background-size: 100% 575px;
+}
+#text_left{
+	margin-top: 160px;
+	margin-left: 90px;
+}
+.numbers{
+	height: 162px;
+	width: 100%;
+	
+	background: url(img/like.jpg);
+	background-size: 100% 162px;
+}
+.work{
+	height: 602px;
+	width: 100%;
+	background: url(img/16.jpg);
+	background-size: 100% 602px;
+
+}
+.load_more{
+	height: 102px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+#s95{
+font-size: 16px;
+color: #787878;
+text-transform: uppercase;
+font-family: Helvetica;
+}
+.our_work{
+	height: 930px;
+	width: 100%;
+	background-color: #ffffff;
+	display: flex;
+	background-color: #e9e9e9;
+	flex-flow: column;
+}
+#s107{
+	margin: auto;
+	text-align: center;
+	width: 468px;
+	margin-top: 95px;
+	
+}
+.video_our{
+	width: 1174px;
+	height: 570px;
+	background: url(img/18.jpg);
+	background-size: 100% 570px;
+	margin: auto;
+	margin-top: 5px;
+}
+.services{
+	width: 100%;
+	height: 700px;
+	background: url(img/17.jpg);
+	background-size: 100% 700px;
+	display: flex; 
+}
+.testivonial{
+	width: 100%;
+	height: 500px;
+	background-color: #10c9c3;
+	display: flex;
+	align-items: center;
+}
+#text_testivonial{
+	width: 640px;
+	text-align: center;
+	color: #ffffff;
+	margin: auto;
+}
+.clients{
+	width: 100%;
+	height: 200px;
+}
+.oneproject{
+	width: 100%;
+	height: 850px;
+	background-color: #e9e9e9;
+	flex-flow: column;
+}  
+#ff{
+	height: 15%;
+
+}
+.textonepr{
+	width: 555px;
+	margin: auto;
+	text-align: center;
+}
+.inputproj{
+	margin: auto;
+	width: 680px;
+	margin-top: 100px;
+	background-color:  #e9e9e9; 
+}
+#name{
+	width: 330px;
+	height: 40px;
+}
+#email{
+	width: 330px;
+	height: 40px;
+	float: right;
+}
+#title{
+	width: 676px;
+	height: 40px;
+	margin-top: 30px;
+}
+#coment{
+	margin-top: 30px;
+	width: 676px;
+}
+#send_message{
+	margin-left: 36%;
+	width: 180px;
+	height: 55px;
+	margin-top: 70px;
+	background-color: #10c9c3;
+}
+.footer{
+	width: 100%;
+	height: 230px;
+	background-color: #141414;
+	padding: 0px 100px;
+	display: flex;
+	
+	
+}
+
+#inc{
+
+margin-top: 80px;
+}
+#email_47{
+margin-top: 80px;
+}
+#servis{
+
+margin-top: 80px;
+
+}
+#news{
+
+margin-top: 80px;
+
+}
+#Facebook{
+margin-top: 80px;
+
+
