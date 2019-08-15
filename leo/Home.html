@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="main.js"></script>
+
+</head>
+<body>
+
+	<div class="menu">
+		<ul class="menu-main">
+ 			 <li><a href="">Solutions</a></li>
+ 			 <li><a href="">Product</a></li>
+  			 <li><a href="">Portfolio</a></li>
+  			 <li><a href="">Contact</a></li>
+		</ul>
+		<div class="introducing">
+			<p style="font-family: Myriad Pro; font-size: 64.63px;">Introducing</p>
+			<p style="font-family: Myriad Pro; font-size: 44.63px;">Something hot.....</p>
+			<a href="#" class="button8" onclick="Demo()">Try Demo</a>
+		</div>
+	</div>
+
+<div class="wrapper">
+		<div class="tabs__nav tabs-nav">
+		<div class="website tabs-nav__item is-active" data-tab-name="tab-1"></div>
+		<div class="Commerce tabs-nav__item" data-tab-name="tab-2"></div>
+		<div class="Daily_blog tabs-nav__item" data-tab-name="tab-3"></div>
+		<div class="search tabs-nav__item" data-tab-name="tab-3"></div>
+	</div>
+
+		<div class="tabs__content">
+			<div class="tab is-active tab-1"> 
+				<div class="ipade"></div>
+			<div class="tab_1text" >
+				<p style="font-size: 38.63px; font-family: Myriad Pro;">Lorem Ipsum is simply dummy text</p>
+				<br>
+				<p style="font-size: 14px; font-family: Myriad Pro; line-height: 25px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+
+				It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+		</div>
+			<div class="tab tab-2">Содержание таба 2</div>
+			<div class="tab tab-3">Содержание таба 3</div>
+			<div class="tab tab-4">Содержание таба 4</div>
+		</div>
+	</div>
+<script type="text/javascript">
+	let tab = function () {
+    let tabNav = document.querySelectorAll('.tabs-nav__item'),
+        tabContent = document.querySelectorAll('.tab'),
+        tabName;
+
+   		tabNav.forEach(item => {
+        item.addEventListener('click', selectTabNav)
+    });
+
+    function selectTabNav() {
+        tabNav.forEach(item => {
+            item.classList.remove('is-active');
+        });
+        this.classList.add('is-active');
+        tabName = this.getAttribute('data-tab-name');
+        selectTabContent(tabName);
+    }
+
+    function selectTabContent(tabName) {
+        tabContent.forEach(item => {
+            item.classList.contains(tabName) ? item.classList.add('is-active') : item.classList.remove('is-active');
+        })
+    }
+
+};
+tab();
+</script>
+	
+	<div style="display: flex; margin-top: 50px;">
+	<div class="site_img"></div>
+	<div class="why_choose">
+		<p style="font-family: Myriad Pro; font-size: 32.63px;">Why choose us?</p>
+		<br>
+		<ul>
+			<li>Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+			<li>Lorem Ipsum has been the industry's standard dummy text ever</li>
+			<li>When an unknown printer took a galley of type and scrambled</li>
+			<li>It has survived not only five centuries, but also the leap into electronic </li>
+			<li>It was popularised in the 1960s with the release of Letraset sheets containing</li>
+			<li>More recently with desktop publishing software like Aldus PageMaker</li>
+		</ul>
+	</div>
+	</div>
+
+	<div style="display: flex; margin-top: 50px">
+		
+		<div class="sigin_in">
+			<p style="font-family: Myriad Pro; font-size: 28px; color: #ffffff;">
+				Member login
+			</p>
+			<br>
+			<input type="" name="" value="User name">
+			<input type="" name="" value="Password">
+			<input type="button" name="" value="Log me in" onclick="Subscribe()" style="border: none;
+            cursor: pointer;
+            overflow: hidden;
+            background: #444444;
+            padding: 5px;
+            color: #ffffff;">
+		</div>
+		<div class="weekly">
+			<p style="font-family: Myriad Pro; font-size: 28px; color: #ffffff;">
+				Subscribe to our weekly newsletter
+			</p>
+			<br>
+			<input type="" name="" value="Email address" style="width: 250px;">
+			<input type="button" name="" value="Subscribe" onclick="Subscribe()" style="border: none;
+            cursor: pointer;
+            overflow: hidden;
+            background: #444444;
+            padding: 5px;
+            margin-left: 50px;
+            color: #ffffff;">
+		</div>
+	</div>
+
+	<div class="podvall">		
+		<div class="about">
+			<p id="ttr">About Us</p> <br>
+			<p id="eer">
+				About us <br>
+				Why us <br>
+				Customer Stories <br>
+				Press Resources <br>
+				Press Releases <br>
+				Contact us 
+			</p>
+		</div>
+		<div class="about">
+			<p id="ttr">About us</p> <br>
+			<p id="eer">
+				About us <br>
+				Why us <br>
+				Customer Stories <br>
+				Press Resources <br>
+				Press Releases <br>
+				Contact us
+			</p>
+		</div>
+		<div class="testimoanials">
+			<p id="ttr">Testimoanials</p> <br>
+			<p id="eer">Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry. Lorem Ipsum has been the industr
+standard dummy text ever since the 1500s, 
+when an unknown printer took a </p> <br>
+			<p id="eer">Lorem Ipsum is simply
+Owner, Lorem Ipsum</p> 
+		</div>
+	</div>
+
+
+</body>
+</html>
